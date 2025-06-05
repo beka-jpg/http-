@@ -23,7 +23,7 @@ public class Server {
 
     private AsynchronousServerSocketChannel server;
 
-    public void bootstrapt(){
+    public void bootstrap(){
         try {
             server = AsynchronousServerSocketChannel.open();
             server.bind(new InetSocketAddress("127.0.0.1", 8088));
